@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Silva22211767/Practica0MSF)
 
-# Práctica 0: Modelo del sistema respiratorio
+# Práctica 1: Diseño de controladores
 
 ## Infromación de la estudiante
 Karla Emilia Silva Perez \[22211767]; l22211767@tectijuana.edu.mx
