@@ -22,26 +22,28 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-1. Calcular la función de transferencia.
-2. Determinar el modelo de ecuaciones integro-diferenciales.
-3. Establecer el sistema de ecuaciones diferenciales ordinarias lineales de primer orden.
-4. Emular la respuesta del circuito RLC en Simulink/Simscape al escalón, impulso, rampa y función sinusoidal.
-5. Simular la respuesta de los modelos matemáticos en Simulink/MATLAB al escalón, impulso, rampa y función sinusoidal.
-6. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema.
-7. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
+1.	Calcular la función de transferencia.
+2.	Determinar el modelo de ecuaciones integro-diferenciales.
+3.	Analizar la estabilidad del sistema
+4.	Determinar el error en estado estacionario.
+5.	Emular la respuesta del circuito RLC en Simulink/Simscape al escalón, impulso, rampa y función sinusoidal.
+6.	Sintonizar las ganancias de un controlador PID en Simulink/MATLAB para eliminar el error entre la entrada y la salida del sistema.
+7.	Simular la respuesta del sistema en lazo abierto y lazo cerrado en Simulink/MATLAB al escalón, impulso, rampa y función sinusoidal.
+8.	Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
 
 ## Descripción detallada del sistema
 
-Un circuito RLC representa un sistema de segundo orden que modeliza, de manera simplificada, la mecánica pulmonar: El resistor R representa una combinación de la resistencia al flujo de aire Q(t) en las vías respiratorias, el tejido pulmonar y la pared torácica. El inductor L representa la inertancia. Los componentes R y C representan respectivamente las propiedades mecánicas resistivas y de almacenamiento del sistema respiratorio. El objetivo del modelo eléctrico es predecir la respuesta dinámica de la presión alveolar PA(t) a diferentes formas de onda de presión Pao(t) aplicadas en la apertura de las vías respiratorias.
+En esta práctica se presenta un circuito RLC de segundo orden, el sistema es estable con una respuesta sobreamortiguada, un error en estado estacionario de 0.5 V y un transitorio que depende directamente de los valores elegidos para el conjunto de resistencias R y la capacitancia del capacitor C de la segunda malla.
 
-Palabras clave: Circuito RLC; Controlador PID; Sistema respiratorio; Modelo matemático; Simulaciones numéricas
+Palabras clave: Circuito RLC; Controlador PID; Sistema respiratorio; Modelo matemático; Simulaciones numéricas.
 
 ## Lista de archivos incluidos en el repositorio
-1. Cuaderno computacional de MATLAB [.mlx].
-2. Modelo de Simulink [.slx].
-3. Archivos de Spyder [.py].
-4. Imagen con los parámetros del controlador.
-5. Imagénes de las simulaciones [.pdf y .png].
+1.	Cuaderno computacional de MATLAB [.mlx].
+2.	Modelo de Simulink [.slx].
+3.	Archivos de Spyder [.py].
+4.	Imagen con los parámetros del controlador.
+5.	Imágenes de las simulaciones [.pdf y .png].
+6.	Análisis matemático: Función de transferencia, modelo de ecuaciones integro-diferenciales, estabilidad y error en estado estacionario.
 
 ## Referencias
 \[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
